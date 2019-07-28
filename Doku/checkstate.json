@@ -1,0 +1,36 @@
+{
+  "hostInfo":{
+    "mac": "b8:97:5a:d9:47:c6",
+    "ip": "10.70.12.21",
+    "state": 1,
+    "errorMsg": "blabla",
+    "upTime": 1235
+  },
+
+  "gpuCount": 6,
+  "gpuInfo":[
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "power": 126,
+      "powerLimit": 120,
+      "temp": 54,
+      "fan": 90,
+      "hash": 24.22,
+      "unit": "MH/s"
+    },
+   ...
+  ]
+
+  "cpuBrand": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz",
+  "coreCount": 4,
+  "cpuInfo":
+  {
+    "name": "Core1",
+    "power": 126,
+    "temp": 54,
+    "hash": 24.22,
+    "unit": "kH/s"
+  },
+  ...
+
+}

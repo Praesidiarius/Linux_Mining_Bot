@@ -1,0 +1,15 @@
+# Install Ubuntu 18.04 server minimal fresh open openssh enabled
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt-get install nvidia-390 || or nvidia-418
+
+apt install cmake autoconf automake zlib1g-dev libncurses5-dev libcurl4-openssl-dev xserver-xorg xinit screen xterm lm-sensors fancontrol
+
+# if generate xorg is disabled
+sudo nvidia-xconfig -a --allow-empty-initial-configuration --cool-bits=12 --use-display-device=none
+
+unzip
+
+cmake .
+
+make

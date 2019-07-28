@@ -1,0 +1,43 @@
+{
+  "homepath": "/home/dbadmin/cg",
+  /* start.sh startcpu.sh templates for generating start stript */
+  "scriptTemplate": "/home/dbadmin/cg/config",
+  "errorlog": "CGerror.log",
+
+  /*GPU fans available*/
+  "hasFan": false,
+  /*AMD or NVIDIA*/
+  "GpuManufacurer": "NVIDIA",
+
+  /* Interval in min */
+  "checkStateInterval": 3,
+  "getSettingsInterval": 10,
+
+  "dashboard": {
+    /* if you do not use a dashboard, use the standalone option */
+    "enabled": true,
+    /* see getSettings.json example */
+    "getSettings": "https://dashboard.free-miners.org/rigadmin/getsettings",
+    /* see updateState.json example */
+    "updateState": "https://dashboard.free-miners.org/rigadmin/updatestate"
+  },
+
+  "standalone": {
+    /* Use this option if you dont use a dashboard*/
+    "enabled": false,
+    "useOC": true,
+    "OCcore": 0,
+    "OCmemcore":0,
+    "powerlimit": 150,
+    /* Use the OhGodAnETHlargementPill for ethash algos*/
+    "useThePill": true,
+    "thePillPath": "/home/dbadmin/OhGodAnETHlargementPill/OhGodAnETHlargementPill-r2"
+
+  },
+  "generateXorg":{
+    /* generate new Xorg befor reboot */
+    "enabled": true,
+    "script": "generate-xorg.sh"
+  }
+
+}

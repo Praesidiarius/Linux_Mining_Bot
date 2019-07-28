@@ -1,0 +1,18 @@
+{
+  "message": {
+    "currency": "ETC",
+    "hostname": "Miner1",
+    "oc_core": "0",
+    "oc_enabled": 0,
+    "oc_memcore": "0",
+    "oc_pill_enabled": "1",
+    "oc_powerlimit": "120",
+    "pool1pass": "Miner1",
+    "pool1port": "poolPort",
+    "pool1url": "poolUrl",
+    "pool1user": "pooluser",
+    "startscript": "/home/dbadmin/cg/miners/xmrig-nvidia/xmrig-nvidia --variant 1 --donate-level 1 -o stratum+tcp://classic.etnminers.com:7779 -u  etncx2GygswWDP9se52jBh2bKQG7nRURqcBatWmGLSH3ZcBjLhMhsJMKShBbTGjJs4LEA9ouF8jxfe2bzLEDQrbuRKGnoNW3Kos  -p .${RIGADMIN}",
+    "wallet": "wallet"
+  },
+  "state": "success"
+}

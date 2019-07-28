@@ -1,0 +1,133 @@
+{
+  "id": "decc84222b59b55d",
+  "worker_id": "M102",
+  "version": "2.6.1",
+  "kind": "nvidia",
+  "ua": "XMRig/2.6.1 (Linux x86_64) libuv/1.8.0 CUDA/9.10 gcc/5.4.0",
+  "cpu": {
+    "brand": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz",
+    "aes": true,
+    "x64": true,
+    "sockets": 1
+  },
+  "algo": "cryptonight",
+  "hugepages": false,
+  "donate_level": 5,
+  "hashrate": {
+    "total": [
+      774.08,
+      4632.4,
+      0.0
+    ],
+    "highest": 4634.38,
+    "threads": [
+      [
+        0.0,
+        773.25,
+        0.0
+      ],
+      [
+        0.0,
+        772.0,
+        0.0
+      ],
+      [
+        0.0,
+        771.93,
+        0.0
+      ],
+      [
+        774.08,
+        774.1,
+        0.0
+      ],
+      [
+        0.0,
+        771.35,
+        0.0
+      ],
+      [
+        0.0,
+        769.74,
+        0.0
+      ]
+    ]
+  },
+  "health": [
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "clock": 1885,
+      "mem_clock": 5005,
+      "power": 126,
+      "temp": 54,
+      "fan": 90
+    },
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "clock": 1911,
+      "mem_clock": 5005,
+      "power": 134,
+      "temp": 49,
+      "fan": 90
+    },
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "clock": 1911,
+      "mem_clock": 5005,
+      "power": 136,
+      "temp": 46,
+      "fan": 90
+    },
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "clock": 1898,
+      "mem_clock": 5005,
+      "power": 194,
+      "temp": 51,
+      "fan": 90
+    },
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "clock": 1898,
+      "mem_clock": 5005,
+      "power": 134,
+      "temp": 49,
+      "fan": 90
+    },
+    {
+      "name": "GeForce GTX 1080 Ti",
+      "clock": 1847,
+      "mem_clock": 5005,
+      "power": 126,
+      "temp": 49,
+      "fan": 90
+    }
+  ],
+  "results": {
+    "diff_current": 120001,
+    "shares_good": 18,
+    "shares_total": 19,
+    "avg_time": 43,
+    "hashes_total": 2160018,
+    "best": [
+      1372799,
+      912333,
+      872670,
+      611744,
+      517678,
+      296809,
+      255387,
+      233376,
+      230819,
+      230503
+    ],
+    "error_log": []
+  },
+  "connection": {
+    "pool": "xmr-eu1.nanopool.org:14444",
+    "uptime": 788,
+    "ping": 77,
+    "failures": 0,
+    "error_log": []
+  }
+}

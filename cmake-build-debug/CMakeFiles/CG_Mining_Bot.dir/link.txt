@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/CG_Mining_Bot.dir/src/main.cpp.o CMakeFiles/CG_Mining_Bot.dir/src/helper.cpp.o CMakeFiles/CG_Mining_Bot.dir/src/minerapi.cpp.o CMakeFiles/CG_Mining_Bot.dir/src/data.cpp.o CMakeFiles/CG_Mining_Bot.dir/src/ngui.cpp.o  -o CG_Mining_Bot -lcurl -lpthread -lncurses -lmenu 
